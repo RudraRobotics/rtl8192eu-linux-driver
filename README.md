@@ -1,5 +1,10 @@
 # rtl8192eu linux drivers
 
+### To install this driver on raspberry pi 4B, ubuntu server 20.04, do:
+CONFIG_PLATFORM_ARM_RPI = y  
+CONFIG_PLATFORM_ARM_AARCH64 = y  
+CONFIG_PLATFORM_I386_PC = n  
+
 **NOTE:** This branch is based on Realtek's driver versioned 4.4.1. `master` is based on 4.3.1.1 originally.
 
 The official drivers for D-Link DWA-131 Rev E, with patches to keep it working on newer kernels.
